@@ -1,0 +1,17 @@
+[package]
+name = "your-package-name"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-parser = "^0.12.1"
+image = "0.24.6"
+cargo-wasi = "0.1.28"
+wit-bindgen = "0.13.0"
+
+# [dependencies.test-helpers]
+# path = "crates/test-helpers"
+# version = "0.0.0"
