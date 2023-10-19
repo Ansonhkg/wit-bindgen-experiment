@@ -11,7 +11,3 @@ wit-parser = "^0.12.1"
 image = "0.24.6"
 cargo-wasi = "0.1.28"
 wit-bindgen = "0.13.0"
-
-# [dependencies.test-helpers]
-# path = "crates/test-helpers"
-# version = "0.0.0"
